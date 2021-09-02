@@ -21,14 +21,7 @@
    color:darkred;
    font-weight: bold;
  }
- body{
-  background-size:cover;
-  background-position:center;
-  height: 100vh;
-  background: #F0F2F0;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #000C40, #F0F2F0);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #000C40, #F0F2F0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+ 
 .home-callout{
       background: #F0F2F0;  /* fallback for old browsers */
       background: -webkit-linear-gradient(to top, #66aee9, #F0F2F0);  /* Chrome 10-25, Safari 5.1-6 */
@@ -36,6 +29,24 @@
       margin-top:  -20px;
       padding-top: 25px;
       padding-bottom: 50px;
+}
+.navbar-default .navbar-brand{
+  color: white;
+}
+.navbar-default .navbar-nav > li > a{
+  color: white;
+}
+.navbar-default .navbar-brand:hover{
+  color: cornflowerblue;
+  opacity: 0.85;
+  font-weight:  bold;
+
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+  color: crimson;
+  opacity: 0.75;
+  font-weight:  bold;
 }
 
  .navbar{
