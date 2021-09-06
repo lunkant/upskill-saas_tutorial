@@ -15,13 +15,15 @@
  */
   @import 'bootstrap-sprockets';
   @import 'bootstrap';
-  
+  // Typography Styles
  h1, h2, h3{
    font-family: 'Open Sans', sans-serif;
-   color:darkred;
-   font-weight: bold;
  }
- 
+ .head-edit{
+  color:darkred;
+  font-weight: bold;
+ }
+ // body background gradient and home page styles
 .home-callout{
       background: #F0F2F0;  /* fallback for old browsers */
       background: -webkit-linear-gradient(to top, #66aee9, #F0F2F0);  /* Chrome 10-25, Safari 5.1-6 */
@@ -30,12 +32,12 @@
       padding-top: 25px;
       padding-bottom: 50px;
 }
-.navbar-default .navbar-brand{
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a
+{
   color: white;
 }
-.navbar-default .navbar-nav > li > a{
-  color: white;
-}
+
 .navbar-default .navbar-brand:hover{
   color: cornflowerblue;
   opacity: 0.85;
@@ -48,7 +50,7 @@
   opacity: 0.75;
   font-weight:  bold;
 }
-
+// head background gradient and nav styles
  .navbar{
   border:none;
   background: #000428;  /* fallback for old browsers */
