@@ -13,9 +13,11 @@
  *= require_tree .
  *= require_self
  */
+ 
  //bootstrap gem
   @import 'bootstrap-sprockets';
   @import 'bootstrap';
+  
   // for font-awesome gem
   @import 'font-awesome-sprockets';
   @import 'font-awesome';
